@@ -1,0 +1,105 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #101213;
+    padding: 0;
+    margin: 0;
+}
+div#cabecalho {
+    padding: 0.5em 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #0069d9;
+}
+div#menu {
+    padding: 0em;
+    float: left;
+    width: 15em;
+}
+div#menu h1 {
+    padding: 1em;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+div#tituloDoModulo {
+    padding: 0;
+    margin-left:15em;
+}
+div#tituloDoModulo h1 {
+    font-size: x-large;
+}
+div#mensagens {
+    padding: 0;
+    margin-left: 15em;
+}
+div#mensagens p {
+    color: red;
+}
+div#conteudo {
+    /*padding: 0;*/
+    padding-top: 0px;
+    padding-right: 2px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-left: 15em;
+    position: relative;
+}
+div#rodape{
+    min-width: 100%;
+    position: absolute;
+    bottom: 0;
+    flex-direction: row;
+    padding: 0.2em 0;
+    clear: both;
+    color: rgb(255, 255, 255);
+    background-color: #0069d9;
+    text-align: center;
+}
+h1#topo {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+fieldset {
+    border-radius:6px ;
+    margin-top: 0.5em;
+    margin-right: 15em;
+    margin-bottom:  0.5em;
+    margin-left: 0em;
+}
+
+button {
+    margin: 4px;
+    display: inline-block;
+	font-weight: 400;
+	color: #212529;
+	text-align: center;
+	border: 1px solid transparent;
+	padding: .375rem .375rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	color: #fff;
+	background-color: #007bff;
+}
+
+button:hover{
+    background-color: #0069d9;
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #101213;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
